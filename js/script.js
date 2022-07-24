@@ -532,19 +532,19 @@ $document.ready(function() {
 
         var regularConstraintsMessages = [{
                 type: regula.Constraint.Required,
-                newMessage: "Необходимо заполнить текстовое поле."
+                newMessage: "Text kiritish majburiy"
             },
             {
                 type: regula.Constraint.Email,
-                newMessage: "Электронная почта задана некорректно."
+                newMessage: "Elektron pochta kiritish majburiy"
             },
             {
                 type: regula.Constraint.Numeric,
-                newMessage: "Допустимо использовать только цифры"
+                newMessage: "Raqam kiritish majburiy"
             },
             {
                 type: regula.Constraint.Selected,
-                newMessage: "Пожалуйста, выберите вариант."
+                newMessage: "Iltimos tanlang"
             }
         ];
 
@@ -780,7 +780,7 @@ $document.ready(function() {
                         form.addClass('form-in-process');
 
                         if (output.hasClass("snackbars")) {
-                            output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+                            output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sizning malumotlaringiz yuborildi ✅</span></p>');
                             output.addClass("active");
                         }
                     } else {
