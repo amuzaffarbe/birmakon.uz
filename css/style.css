@@ -17854,7 +17854,6 @@ html .play-icon:after {
 }
 
 .mdi-file-presentation-box:before {
-    content: "\f31e";
 }
 
 .mdi-file-send:before {
@@ -19874,11 +19873,9 @@ html .play-icon:after {
 }
 
 .mdi-presentation:before {
-    content: "\f517";
 }
 
 .mdi-presentation-play:before {
-    content: "\f518";
 }
 
 .mdi-printer:before {
@@ -38693,7 +38690,7 @@ div.rd-search-results-live.active {
     overflow: hidden !important;
     padding: 0 !important;
     position: absolute !important;
-    width: 1px !important;
+    width: 300px !important;
 }
 
 .select2-container--bootstrap {
@@ -38701,20 +38698,20 @@ div.rd-search-results-live.active {
 }
 
 .select2-container--bootstrap .select2-selection {
-    background-color: #f4f7f9;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    color: #999;
+    background-color: #ccc;
+    border: 1px solid none;
+    border-radius: 18px;
+    color: #000;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-size: 15;
+    font-size: 13px;
     outline: 0;
 }
 
 .select2-container--bootstrap .select2-search--dropdown .select2-search__field {
-    background-color: #f4f7f9;
+    background-color: #ccc;
     border: 1px solid transparent;
     border-radius: 3px;
-    color: #999;
+    color: #000;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 15;
 }
@@ -38871,8 +38868,8 @@ div.rd-search-results-live.active {
 
 .select2-container--bootstrap .select2-selection--single {
     text-align: left;
-    height: 50px;
-    line-height: 50px;
+    height: 32px;
+    line-height: 33px;
     padding: 0 15px;
 }
 
@@ -38884,21 +38881,20 @@ div.rd-search-results-live.active {
 }
 
 .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b:before {
-    position: absolute;
-    top: 50%;
     font-weight: 400;
     margin-top: -10px;
-    right: 0;
     height: 20px;
     line-height: 20px;
-    content: '\e313';
     font-family: 'Material Icons';
     font-size: 20px;
 }
 
 .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
-    color: #999;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 0.5px;
     padding: 0;
+    /* padding-right: 17px */
 }
 
 .select2-container--bootstrap .select2-selection--single .select2-selection__placeholder {
@@ -39279,7 +39275,7 @@ div.rd-search-results-live.active {
 
 .form-control.select2-hidden-accessible {
     position: absolute !important;
-    width: 1px !important;
+    width: 300px !important;
 }
 
 .form-inline .select2-container--bootstrap {
@@ -41573,4 +41569,37 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .location {
     margin-bottom: -3px
+}
+
+.d-flex {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.lang-item {
+    margin-right: 15px;
+}
+
+.lang-img { 
+    width: 37px;
+    height: 25px;
+    cursor: pointer;
+}
+
+select {
+    border: 2px solid black !important;
+}
+
+.arrow {
+    display: flex !important;
+    align-items: center;
+    background: white;
+    padding: 0 11px;
+    border-radius: 50%;
+    margin-left: -23px;
+    z-index: 9;
+}
+
+.select {
+    cursor: pointer;
 }

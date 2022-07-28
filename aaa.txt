@@ -1,31 +1,10 @@
-<!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
-
-<head>
-    <!-- Site Title-->
-    <title>Birmakon - Bosh sahifa</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport"
-        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <script src="/cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css"
-        href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,300italic">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <script src="https://kit.fontawesome.com/1937873da4.js" crossorigin="anonymous"></script>
-</head>
-
 <body>
     <!-- Page-->
     <div class="page">
         <div class="page-loader">
             <div class="cssload-container">
                 <div class="cssload-speeding-wheel"></div>
-                <p class="loader-header">Yuklanmoqda...</p>
+                <p class="loader-header">Loading...</p>
             </div>
         </div>
         <!-- Page Header-->
@@ -55,17 +34,15 @@
                                 <div class="rd-navbar-aside-item bg-athens-gray bg-wrap novi-background">
                                     <div class="block-container">
                                         <div class="block-left">
-                                            <p class="rd-navbar-fixed--hidden small">Birmakon - professional xizmatlar
-                                                markaziga xush kelibsiz!</p>
+                                            <p class="rd-navbar-fixed--hidden small">Birmakon - Welcome to the Professional Services Center!</p>
                                         </div>
                                         <div class="block-right">
-                                            <div class="select d-flex">
+                                            <div class="select">
                                                 <select name="lang" id="lang" onchange="selectFunction()" class="select-lang">
-                                                    <option value="uz" class="uzbek"> O'zbekcha </option>
+                                                    <option value="uz" class="uzbek"> O'zbekcha</option>
                                                     <option value="ru">Русский</option>
                                                     <option value="en">English</option>
                                                 </select>
-                                                <!-- <i class="fa-solid arrow fa-arrow-up"></i> -->
                                             </div>
                                         </div>
                                     </div>
@@ -82,8 +59,8 @@
                                                 </div>
                                                 <div class="unit-body">
                                                     <address class="contact-info"><span
-                                                            class="text-bold text-gray-base">Du. - Sha.: 9:00 -
-                                                            18:00</span><span>Yakshanba dam olish</span></address>
+                                                            class="text-bold text-gray-base">Mo. - Sa.: 9:00 -
+                                                            18:00</span><span>Sunday off</span></address>
                                                 </div>
                                             </div>
                                         </li>
@@ -131,7 +108,7 @@
                                     <form class="rd-search" action="search-results.html" method="GET"
                                         data-search-live="rd-search-results-live">
                                         <div class="form-group">
-                                            <label class="form-label" for="rd-search-form-input">Qidiruv...</label>
+                                            <label class="form-label" for="rd-search-form-input">Search...</label>
                                             <input class="form-control" id="rd-search-form-input" type="text" name="s"
                                                 autocomplete="off">
                                             <div class="rd-search-results-live" id="rd-search-results-live"></div>
@@ -144,81 +121,78 @@
                                 </div>
                                 <!-- RD Navbar Nav-->
                                 <ul class="rd-navbar-nav">
-                                    <li class="active"><a href="index.html">Bosh sahifa</a></li>
-                                    <li><a href="about.html">Biz haqimizda</a>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About us</a>
                                     </li>
-                                    <li><a href="services.html">Xizmatlar</a>
+                                    <li><a href="services.html">Services</a>
                                         <!-- RD Navbar Dropdown-->
                                         <ul class="rd-navbar-megamenu first-nav">
                                             <li>
                                                 <ul>
-                                                    <li><b>Biznes reja tayyorlash : </b></li>
+                                                    <li><b>Preparing a business plan : </b></li>
                                                     <div class="div-right">
-                                                        <li><a href="services.html"> - Bank krediti uchun biznes
-                                                                reja</a></li>
-                                                        <li><a href="services.html"> - Kichik va yoshlar sanoat zonalar
-                                                                uchun texnik <span class="space">-</span> iqtisodiy
-                                                                asosnomalar</a>
+                                                        <li><a href="services.html"> - Business plan for a bank loan</a></li>
+                                                        <li><a href="services.html"> - Technical for small and youth industrial zones<span class="space">-</span> economic foundations</a>
                                                         </li>
-                                                        <li><a href="services.html"> - Erkin iqtisodiy zonalar uchun
-                                                                texnik - iqtisodiy asosnomalar</a>
+                                                        <li><a href="services.html"> - For free economic zones
+                                                            technical and economic foundations</a>
                                                         </li>
-                                                        <li><a href="services.html"> - Uskunalar va xom-ashyolar
-                                                                topishda ko'maklashish</a>
+                                                        <li><a href="services.html"> - Equipment and raw materials
+                                                            help in finding</a>
                                                         </li>
                                                     </div>
                                                     <br>
-                                                    <li><b>Media xizmatlar : </b></li>
+                                                    <li><b>Media Services : </b></li>
                                                     <div class="div-right">
-                                                        <li><a href="services.html"> - Foto va video syomkalar</a></li>
-                                                        <li><a href="services.html"> - Sahna va bezatish xizmatlari</a>
+                                                        <li><a href="services.html"> - Photo and video footage</a></li>
+                                                        <li><a href="services.html"> - Stage and Decoration Service</a>
                                                         </li>
-                                                        <li><a href="services.html"> - Logotip tayyorlash</a></li>
-                                                        <li><a href="services.html"> - Flayer, vizitka va biznes
-                                                                jurnallar yaratish</a></li>
+                                                        <li><a href="services.html"> - Making a logo</a></li>
+                                                        <li><a href="services.html"> -Flyer, business card and business
+                                                            creating logs</a></li>
                                                     </div>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <ul>
-                                                    <li><b>Raqamli texnologiyalar : </b></li>
+                                                    <li><b>Digital technologies : </b></li>
                                                     <div class="div-right">
 
-                                                        <li><a href="services.html"> - Web sayt yaratish</a></li>
-                                                        <li><a href="services.html"> - Marketing va SMM xizmatlari</a>
+                                                        <li><a href="services.html"> - Create a website</a></li>
+                                                        <li><a href="services.html"> - Marketing va SMM Servicesi</a>
                                                         </li>
-                                                        <li><a href="services.html"> - AR & VR texnalogiyalari</a></li>
-                                                        <li><a href="services.html"> - Ishlab chiqarish jarayonlarini
-                                                                avtomatlashtirish</a></li>
-                                                        <li><a href="services.html"> - Buxgalteriya xizmatlari</a></li>
+                                                        <li><a href="services.html"> - AR & VR technologies</a></li>
+                                                        <li><a href="services.html"> - Production processes
+                                                            automation</a></li>
+                                                        <li><a href="services.html"> - Accounting Service</a></li>
                                                     </div>
                                                     <br> <br>
                                                     <li class="mt-3"><b>Birmakon.uz marketplace : </b></li>
                                                     <div class="div-right">
-                                                        <li><a href="services.html"> - Tovarlar katalogi</a></li>
-                                                        <li><a href="services.html"> - Mahsulotni export qilish</a></li>
+                                                        <li><a href="services.html"> - Catalog of goods</a></li>
+                                                        <li><a href="services.html"> - Product export</a></li>
                                                     </div>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <ul>
-                                                    <li><b>Konsalting xizmatlari :</b></li>
+                                                    <li><b>Consulting Services :</b></li>
                                                     <div class="div-right">
-                                                        <li><a href="services.html"> - Yer maydonlarini olishda</a></li>
-                                                        <li><a href="services.html"> - Bank kreditlarini olishda</a>
+                                                        <li><a href="services.html"> - When taking land areas</a></li>
+                                                        <li><a href="services.html"> - When getting bank loans</a>
                                                         </li>
-                                                        <li><a href="services.html"> - Baholash va sug'urtalashda</a>
+                                                        <li><a href="services.html"> - In valuation and insurance</a>
                                                         </li>
-                                                        <li><a href="services.html"> - Arxitektura va kadastir
-                                                                hujjatlarini tayyorlashda</a></li>
-                                                        <li><a href="services.html"> - Deklarant va
-                                                                sertifikatsiyalashda</a></li>
+                                                        <li><a href="services.html"> - Architecture and cadastre
+                                                            in the preparation of documents</a></li>
+                                                        <li><a href="services.html"> - Declarant and
+                                                            in certification</a></li>
                                                     </div>
                                                     <br> <br>
-                                                    <li class="mt-3"><b>Turizm va aviakassa :</b></li>
+                                                    <li class="mt-3"><b>Tourism and airport :</b></li>
                                                     <div class="div-right">
-                                                        <li><a href="services.html"> - Tur paketlar</a></li>
-                                                        <li><a href="services.html"> - Avia chiptalar</a></li>
+                                                        <li><a href="services.html"> - Tour packages</a></li>
+                                                        <li><a href="services.html"> - Air tickets</a></li>
                                                     </div>
                                                 </ul>
                                             </li>
@@ -227,11 +201,11 @@
                                     <li><a href="blog.html">Blog</a>
                                         <!-- RD Navbar Dropdown-->
                                         <ul class="rd-navbar-dropdown">
-                                            <li><a href="blog-post.html">Ijtimoiy tarmoqlar</a></li>
-                                            <li><a href="blog-post.html">Galereya</a></li>
+                                            <li><a href="blog-post.html">Social networks</a></li>
+                                            <li><a href="blog-post.html">Gallery</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contacts.html">Bog'lanish</a></li>
+                                    <li><a href="contacts.html">Connection</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -250,14 +224,14 @@
                             <div class="swiper-content shell text-center text-sm-left">
                                 <div class="range range-fix">
                                     <div class="cell-xs-12 cell-md-preffix-1 cell-xl-preffix-0">
-                                        <h1>Muammolar bormi </h1>
-                                        <p class="big">ularni hal qilishni bizga qo'yib bering.<br
+                                        <h1>Have a problem </h1>
+                                        <p class="big">leave them to us to solve.<br
                                                 class="veil reveal-sm-block"></p>
                                         <div class="group-md offset-top-25"><a
                                                 class="btn btn-sm btn-curious-blue-variant-1 min-width-160"
-                                                href="#">Batafsil</a><a
+                                                href="#">More</a><a
                                                 class="btn btn-sm btn-gray-darker-outline min-width-160"
-                                                href="services.html">Bizning xizmatlar</a></div>
+                                                href="services.html">Our Services</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -273,14 +247,14 @@
                             <div class="swiper-content shell text-center text-sm-left">
                                 <div class="range range-fix">
                                     <div class="cell-xs-12 cell-md-preffix-1 cell-xl-preffix-0">
-                                        <h1>Ishlab chiqarishingizni</h1>
+                                        <h1>Your production</h1>
                                         <p class="big">ekspertlar bilan birga quring<br class="veil reveal-sm-block">
                                         </p>
                                         <div class="group-md offset-top-25"><a
                                                 class="btn btn-sm btn-curious-blue-variant-1 min-width-160"
-                                                href="services.html">Bizning xizmatlar</a><a
+                                                href="services.html">Bizning Services</a><a
                                                 class="btn btn-sm btn-sm-mod btn-white-outline min-width-160"
-                                                href="#">Bog'lanish</a></div>
+                                                href="#">Connection</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -324,7 +298,7 @@
                             </div>
                             <h4><a href="#">Raqamli texnologiyalar</a></h4>
                             <p>
-                                Web sayt yaratish, SMM va marketing xizmatlari, ishlab chiqarish jarayonlarini
+                                Web sayt yaratish, SMM va marketing Servicesi, ishlab chiqarish jarayonlarini
                                 avtomatlashtirish
                             </p>
                         </div>
@@ -338,7 +312,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <h4><a href="#">Konsalting xizmatlarini ko'rsatish</a></h4>
+                            <h4><a href="#">Konsalting Servicesini ko'rsatish</a></h4>
                             <p>
                                 Yer maydonlari va bank kreditlarini olishda, baholash, sug'urtalash, arxitektura va
                                 kadastr hujjatlarini tayyorlash
@@ -354,7 +328,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <h4><a href="#">Professional media xizmatlar</a></h4>
+                            <h4><a href="#">Professional media Services</a></h4>
                             <p>Foto va video syomkalar, reklama roliklar, logotip, firmenniy suvinerlar, flayer, vizitka
                                 va biznes jurnallar yaratish</p>
                         </div>
@@ -371,15 +345,15 @@
                         <div class="cell-xs-12">
                             <div class="elements-group">
                                 <div class="element-wrap">
-                                    <h2 class="relative-shift-up-5 noshrink">Bizning xizmatlar</h2>
+                                    <h2 class="relative-shift-up-5 noshrink">Bizning Services</h2>
                                     <div class="hr-wrap offset-top-10 offset-sm-top-15 offset-md-top-0">
                                         <hr class="hr-md-vertical hr-white">
                                     </div>
-                                    <p class="big">Yuridik va jismoniy shaxslar uchun turli xil professional xizmatlarni
+                                    <p class="big">Yuridik va jismoniy shaxslar uchun turli xil professional Servicesni
                                         taklif etamiz.</p>
                                 </div>
                                 <div class="element-wrap"><a class="btn btn-sm btn-curious-blue-variant-1 min-width-160"
-                                        href="services.html">Barcha xizmatlar</a></div>
+                                        href="services.html">Barcha Services</a></div>
                             </div>
                         </div>
                     </div>
@@ -434,7 +408,7 @@
                                 <h4 class="text-bold"><a href="#">Konsalting markazi</a></h4>
                                 <hr class="hr-block hr-left hr-curious-blue" />
                                 <p>Jismoniy va yuridik shaxslarning faoliyatlaridagi muammolarni hal qilishda
-                                    ko'maklashish, turli xil qo'shimcha xizmatlar ko'rsatish markazi</p>
+                                    ko'maklashish, turli xil qo'shimcha Services ko'rsatish markazi</p>
                             </div>
                         </div>
                     </div>
@@ -599,7 +573,7 @@
             <div class="shell">
                 <div class="range range-fix">
                     <div class="cell-xs-12 text-center">
-                        <h2>Biz haqimizda</h2>
+                        <h2>About us</h2>
                         <hr class="hr-block hr-curious-blue">
                     </div>
                     <div class="cell-xs-12 offset-top-34 offset-sm-top-25">
@@ -740,21 +714,21 @@
                             <nav class="footer-nav-wrap text-xs-left">
                                 <div class="footer-nav-column">
                                     <ul class="footer-nav">
-                                        <li><a href="about.html">Biz haqimizda</a></li>
+                                        <li><a href="about.html">About us</a></li>
                                         <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contacts.html">Bog'lanish</a></li>
+                                        <li><a href="contacts.html">Connection</a></li>
                                     </ul>
                                 </div>
                                 <div class="footer-nav-column">
                                     <ul class="footer-nav">
-                                        <li><a href="services.html">Xizmatlar</a></li>
+                                        <li><a href="services.html">Services</a></li>
                                         <li><a href="team.html">Jamoa</a></li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
                         <div class="cell-xs-12 cell-sm-6 cell-lg-3">
-                            <h4>Bog'lanish</h4>
+                            <h4>Connection</h4>
                             <hr class="hr-variant-1">
                             <address class="contact-info reveal-inline-block">
                                 <ul class="contact-info-list">
@@ -864,5 +838,3 @@
     </script>
     <!-- End Google Tag Manager -->
 </body>
-
-</html>
