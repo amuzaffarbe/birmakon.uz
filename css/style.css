@@ -34590,6 +34590,8 @@ html:not(.lt-ie10) .not-animated {
 
 .owl-carousel .owl-stage {
     position: relative;
+    display: flex !important;
+    align-items: center !important;
     -ms-touch-action: pan-Y;
 }
 
@@ -35236,6 +35238,8 @@ html:not(.lt-ie10) .not-animated {
     margin-bottom: 50px !important;
     max-width: none;
 }
+
+
 
 .rd-navbar-brand>* {
     display: inline-block;
@@ -41605,4 +41609,19 @@ select {
 
 .select {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .rd-navbar-brand img {
+        max-height: 34px;
+        width: auto;
+        margin-bottom: 50px !important;
+        max-width: none;
+        margin-left: 57px;
+        margin-top: 5px;
+    }
+
+    .rd-navbar-fixed .rd-navbar-search {
+        display: none !important;
+    }
 }
